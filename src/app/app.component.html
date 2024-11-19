@@ -1,1 +1,11 @@
-<router-outlet />
+<ng-container>
+    <section class="header-container">
+        <app-header></app-header>
+    </section>
+    <section class="body-container">
+        <router-outlet></router-outlet>
+    </section>
+    <section class="footer-container">
+        <app-footer></app-footer>
+    </section>
+</ng-container>
