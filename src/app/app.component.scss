@@ -1,15 +1,17 @@
 .header-container {
-    background: red;
-    height: 30px;
-    width: 100%;
+  height: 30px;
+  width: 100%;
 }
 .footer-container {
-    width: 100%;
-    background: #000;
-    height: 30px;
+  width: 100%;
+  background: #000;
+  height: 30px;
 }
 .body-container {
-    width: 100%;
-    height: calc(100% - 60px);
-    overflow-y: auto;
+  width: 100%;
+  height: calc(100% - 60px);
+  overflow-y: auto;
+}
+.d-block {
+    display: block;
 }

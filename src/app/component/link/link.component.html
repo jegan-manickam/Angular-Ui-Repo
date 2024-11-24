@@ -1,2 +1,3 @@
-<a href="/input">input</a>
-<a href="/componentCommunication">&#64;Input, &#64;Output (component communication)</a>
+@for(key of links;  track $index) {
+  <a class="link-style" href="{{key.link}}"> {{key.text}}</a>
+}

@@ -5,8 +5,8 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './component-communication.component.html',
-  styleUrl: './component-communication.component.css'
+  styleUrl: './component-communication.component.scss'
 })
 export class ComponentCommunication {
-
+  constructor() {}
 }
