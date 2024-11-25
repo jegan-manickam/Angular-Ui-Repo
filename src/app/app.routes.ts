@@ -13,6 +13,16 @@ export const routes: Routes = [
     path: 'componentCommunication',
     loadComponent: () => import('./component/component-communication/component-communication.component').then(render => render.ComponentCommunication)
   },
-  { path: '',   redirectTo: 'links', pathMatch: 'full' },
-  //{ path: '**', component: PageNotFoundComponent },
+  {
+    path: 'angularFormGroup',
+    loadComponent: () => import('./component/angular-form/angular-form.component').then(render => render.AngularFormComponent)
+  },
+  { path: '',
+    redirectTo: 'links',
+    pathMatch: 'full'
+  },
+  { 
+    path: '**',
+    loadComponent: () => import('./component/page-not-found-component/page-not-found-component.component').then(render => render.PageNotFoundComponentComponent)
+  }
 ];

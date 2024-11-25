@@ -19,6 +19,14 @@ export class LinkComponent {
     {
       link: '/componentCommunication',
       text: he.decode('&#64;Input, &#64;Output (Component Communication)')
+    },
+    {
+      link: '/angularFormGroup',
+      text: 'Angular FormGroup'
+    },
+    {
+      link: 'fwhbdkjna',
+      text: 'PageNotFound'
     }
   ];
 }

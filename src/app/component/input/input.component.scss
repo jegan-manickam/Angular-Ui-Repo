@@ -1,0 +1,21 @@
+app-input:host {
+  display: block;
+  width: 100%;
+  height: 100%;
+  
+  .input-section {
+    padding: 10px;
+    display: block;
+    width: 100;
+    height: 50%;
+    &:nth-child(2) {
+      border-top: 1px solid #ddd;
+    }
+  }
+  .bottom-space {
+    margin-bottom: 10px;
+  }
+  input {
+    margin-left: 10px;;
+  }
+}

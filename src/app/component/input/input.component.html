@@ -1,1 +1,21 @@
-<p>input works!</p>
+<div class="input-section">
+  <div class="bottom-space">
+    <label> First Name</label>
+    <input type="text" [(ngModel)]="text">
+  </div>
+
+  <div class="bottom-space">
+    <label> Last Name</label>
+    <input type="text" [(ngModel)]="inputTextWithObject['text']">
+  </div>
+
+  <div class="bottom-space">
+  <label> INPUT Result : </label>
+  <span>{{text}}</span>
+  <span> {{inputTextWithObject['text']}}</span>
+  </div>
+</div>
+<div class="input-section">
+  <app-component-communication [inputText]="text"></app-component-communication>
+  <app-component-communication [inputTextObject]="inputTextWithObject"></app-component-communication>
+</div>
