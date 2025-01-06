@@ -1,0 +1,8 @@
+<div class="" (click)="parentEvent()">
+  <p>Parent Element</p>
+  <div (click)="childEvent($event)">Child Click</div>
+</div>
+
+<div class="">
+  <app-component-communication [config]="{event: true}" [withOutEmitter]="callBackFunction"></app-component-communication>
+</div>

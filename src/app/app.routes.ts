@@ -17,6 +17,14 @@ export const routes: Routes = [
     path: 'angularFormGroup',
     loadComponent: () => import('./component/angular-form/angular-form.component').then(render => render.AngularFormComponent)
   },
+  {
+    path: 'events',
+    loadComponent: () => import('./component/events/events.component').then(render => render.EventsComponent)
+  },
+  {
+    path: 'syntex',
+    loadComponent: () => import('./component/syntex/syntex.component').then(render => render.SyntexComponent)
+  },
   { path: '',
     redirectTo: 'links',
     pathMatch: 'full'

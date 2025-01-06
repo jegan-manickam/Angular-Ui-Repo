@@ -1,4 +1,13 @@
-<p>Below of the value render form parant component </p>
-
-<p>{{inputText}}</p>
-<p>{{inputTextObject?.['text']}}</p>
+<section class="output-section" *ngIf="!inputTextObject.input">
+  <p>Below of the value render form parant component </p>
+  <p>{{inputText}}</p>
+  <input type="text" [(ngModel)]="inputText" placeholder="child value chnage to parant">
+</section>
+<section class="output-section" *ngIf="inputTextObject.input">
+  <p>Below of the value render form parant component and also update to parent</p>
+  <p>{{inputTextObject['text']}}</p>
+  <input type="text" [(ngModel)]="inputTextObject['text']" placeholder="Two way child value chnage to parant">
+</section>
+<section class="output-section" *ngIf="config.event">
+  <button (click)="callBackFunction()"> Click</button>
+</section>

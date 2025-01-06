@@ -1,6 +1,7 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ComponentCommunication } from '../component-communication/component-communication.component';
+import { TwoWayBindINPUT } from '../../interfaces/input.interface';
 
 @Component({
   selector: 'app-input',
@@ -15,7 +16,7 @@ import { ComponentCommunication } from '../component-communication/component-com
 export class InputComponent {
   constructor() {}
   text: string = '';
-  inputTextWithObject: {[text: string]: string} = {};
+  inputTextWithObject:TwoWayBindINPUT = {text: '', input: true};
 
   public click():void {
     console.log('EEE', this.text)

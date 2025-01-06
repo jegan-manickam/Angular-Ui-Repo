@@ -25,6 +25,14 @@ export class LinkComponent {
       text: 'Angular FormGroup'
     },
     {
+      link: 'events',
+      text: 'Events'
+    },
+    {
+      link: 'syntex',
+      text: '@Syntex'
+    },
+    {
       link: 'fwhbdkjna',
       text: 'PageNotFound'
     }
