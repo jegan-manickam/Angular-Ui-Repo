@@ -25,6 +25,10 @@ export const routes: Routes = [
     path: 'syntex',
     loadComponent: () => import('./component/syntex/syntex.component').then(render => render.SyntexComponent)
   },
+  {
+    path: 'signal',
+    loadComponent: () => import('./component/signal/signal.component').then(render => render.SignalComponent)
+  },
   { path: '',
     redirectTo: 'links',
     pathMatch: 'full'

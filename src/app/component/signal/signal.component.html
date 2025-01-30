@@ -1,0 +1,8 @@
+<p (click)="updateSignal()" class="cursor-pointer">Update Signal Value Parent To Child</p>
+
+<p>Updated value from child to Parent :  <span style="color:brown; padding-left: 10px;">{{signalUpdateFromChild()}}</span></p>
+
+<app-signal-communication
+  [signalValue]="signalScope"
+  [singnalUpdateFromChild]="signalUpdateFromChild">
+</app-signal-communication>

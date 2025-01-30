@@ -33,6 +33,10 @@ export class LinkComponent {
       text: '@Syntex'
     },
     {
+      link: 'signal',
+      text: 'Signal'
+    },
+    {
       link: 'fwhbdkjna',
       text: 'PageNotFound'
     }
