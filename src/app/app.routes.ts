@@ -29,6 +29,10 @@ export const routes: Routes = [
     path: 'signal',
     loadComponent: () => import('./component/signal/signal.component').then(render => render.SignalComponent)
   },
+  {
+    path: 'modify',
+    loadComponent: () => import('./component/modify-stay-modal/modify-stay-modal.component').then(render => render.ModifyStayModalComponent)
+  },
   { path: '',
     redirectTo: 'links',
     pathMatch: 'full'

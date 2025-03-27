@@ -37,6 +37,10 @@ export class LinkComponent {
       text: 'Signal'
     },
     {
+      link: 'modify',
+      text: 'Modify Stay'
+    },
+    {
       link: 'fwhbdkjna',
       text: 'PageNotFound'
     }

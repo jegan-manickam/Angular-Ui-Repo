@@ -25,6 +25,8 @@
     "@angular/compiler-cli": "^19.0.0",
     "@types/he": "^1.2.3",
     "@types/jest": "^29.5.14",
+    "@types/lodash": "^4.17.16",
+    "lodash": "^4.17.21",
     "typescript": "~5.5.0"
   }
 }
