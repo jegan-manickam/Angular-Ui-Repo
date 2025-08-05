@@ -1,0 +1,12 @@
+<div class="angular-form">
+  <form #formTest="ngForm">
+    <input type='text' name="field-1" ngModel required>
+    <input type='text' name="field-2" ngModel required>
+    
+    <button (click)="submit(formTest)">Submit</button>
+  </form>
+
+  <div class="result">
+    {{formTest.value | json}}
+  </div>
+</div>

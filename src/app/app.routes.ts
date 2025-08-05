@@ -33,6 +33,10 @@ export const routes: Routes = [
     path: 'modify',
     loadComponent: () => import('./component/modify-stay-modal/modify-stay-modal.component').then(render => render.ModifyStayModalComponent)
   },
+  {
+    path: 'reactiveForm',
+    loadComponent: () => import('./component/reactive-form/reactive-form.component').then(render => render.ReactiveFormComponent)
+  },
   { path: '',
     redirectTo: 'links',
     pathMatch: 'full'

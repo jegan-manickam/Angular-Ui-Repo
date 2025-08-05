@@ -43,6 +43,10 @@ export class LinkComponent {
     {
       link: 'fwhbdkjna',
       text: 'PageNotFound'
+    },
+    {
+      link: 'reactiveForm',
+      text: 'ReactiveForm'
     }
   ];
 }
