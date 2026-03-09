@@ -43,7 +43,12 @@
               "buildTarget": "demo:build:development"
             },
             "production": {
-              "buildTarget": "demo:build:production"
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "development"
