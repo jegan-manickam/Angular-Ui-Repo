@@ -1,15 +1,14 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { TwoWayBindINPUT } from '../../interfaces/input.interface';
-import { CommonModule } from '@angular/common';
+
 
 @Component({
   selector: 'app-component-communication',
   standalone: true,
   imports: [
-    FormsModule,
-    CommonModule
-  ],
+    FormsModule
+],
   templateUrl: './component-communication.component.html',
   styleUrl: './component-communication.component.scss'
 })

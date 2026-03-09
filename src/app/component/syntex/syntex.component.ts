@@ -1,11 +1,9 @@
-import { CommonModule } from '@angular/common';
+
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-syntex',
-  imports: [
-    CommonModule
-  ],
+  imports: [],
   templateUrl: './syntex.component.html',
   styleUrl: './syntex.component.css'
 })
